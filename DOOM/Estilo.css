@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    color:#fff;
+}
+body{
+    background-color: #000;
+}
+h1{
+    text-align: center;
+    background-color: rgb(7, 90, 62);
+    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Lugrasimo', cursive; 
+}
+p,div{
+    margin-left:15px ;
+}
+p,div{
+    margin-bottom: 6px;
+}
+
+p{
+    color:green;
+}
+div{
+    width: 110px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 2.5ch;
+    font-family: 'Lobster Two';
+    cursor: pointer;
+}
