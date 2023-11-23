@@ -1,18 +1,18 @@
-@charset 'utf-8';
-
+@charset 'utf8';
 *{
-    margin: 0;
-    padding: 0;
-    color:#fff;
+    margin: 0px;
+    
 }
+
 body{
     background-color: #000;
+    color:#fff;
 }
 h1{
     text-align: center;
     background-color: rgb(7, 90, 62);
     font-family: 'Lobster Two', sans-serif;
-    font-family: 'Lugrasimo', cursive; 
+    font-family: 'Lugrasimo', cursive;
 }
 p,div{
     margin-left:15px ;
@@ -33,4 +33,13 @@ div{
     font-size: 2.5ch;
     font-family: 'Lobster Two';
     cursor: pointer;
+}
+/*-----------Estudos de JavaScript para segunda aulo de DOOM--------------------------------------------*/
+div#area{
+    background-color: green;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    margin-top: 10px;
 }

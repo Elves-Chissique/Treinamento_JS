@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        Estudo de DOOM in JavaScript parte-2
+    </h1>
+    <br>
+    <form action="">
+        <label for="N1">Número-1: </label>
+        <input type="number" name="" id="N1">
+        <br> <br>
+        <label for="N2">Número-2: </label>
+        <input type="number" name="" id="N2">
+    </form>
+
+    <div id="area">
+        Resultado
+    </div>
+
+    <script>
+        var TxtN1 = window.document.querySelector('input#N1')
+        var TxtN2 = window.document.querySelector('input#N2')
+
+        var N1 = Number(TxtN1.value)
+
+        var N2 = Number(TxtN2.value)
+        var Soma = N1+N2
+
+        let perna = window.document.querySelector('div#area');
+        perna.addEventListener('mousemove', mostrar)
+        perna.addEventListener('mouseleave', voltar)
+
+        function mostrar(){
+            perna.innerHTML = N2
+        }
+
+        function voltar(){
+            perna.innerHTML = 'Resultado'
+        }
+
+    </script>
+</body>
+</html>

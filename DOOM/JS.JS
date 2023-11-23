@@ -17,3 +17,8 @@ function back(){
     p1.innerHTML= 'Eu sou P e, Quero ser mudado de cor, por JavaScript'
     p1.style.color = 'green'
 }
+
+
+/*-----------Estudos de JavaScript para segunda aulo de DOOM--------------------------------------------*/
+
+
